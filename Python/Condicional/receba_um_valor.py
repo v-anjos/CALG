@@ -9,7 +9,3 @@ def inicio():
         print(valor * 3.0)
     else:
         print("Nada a fazer, o número digitado foi 0")
-
-
-# executando a função
-inicio()
