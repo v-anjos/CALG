@@ -1,6 +1,7 @@
 programa
 {
-	funcao real soma(real x, real y){
+	
+funcao real soma(real x, real y){
 		retorne x + y
 		}
 	funcao real subtracao(real x, real y){
@@ -14,7 +15,8 @@ programa
 		
 	}
 		
-	funcao inicio(){
+	funcao inicio()
+{
 		inteiro opcao = 0
 		real a, b, resultado
 
