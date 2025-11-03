@@ -84,7 +84,7 @@ programa
 				pare
 			}
 		}
-		enquanto (opcao == 0)
+		enquanto (opcao != 0)
 	}
 }
 /* $$$ Portugol Studio $$$ 
