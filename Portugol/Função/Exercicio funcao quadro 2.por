@@ -1,7 +1,7 @@
 programa
 {
 	
-funcao real soma(real x, real y){
+	funcao real soma(real x, real y){
 		retorne x + y
 		}
 	funcao real subtracao(real x, real y){
@@ -15,8 +15,8 @@ funcao real soma(real x, real y){
 		
 	}
 		
-	funcao inicio()
-{
+	funcao menu(){
+		
 		inteiro opcao = 0
 		real a, b, resultado
 
@@ -67,15 +67,7 @@ funcao real soma(real x, real y){
 			}								
 		}
 	}
+	funcao inicio(){
+		menu()
+	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1293; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
