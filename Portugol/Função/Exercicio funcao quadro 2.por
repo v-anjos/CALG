@@ -25,7 +25,7 @@ programa
 		escreva("Digite outro numeo real: ")
 		leia(b)
 		
-		enquanto(opcao != 6){
+		enquanto(opcao != 5){
 			
 			escreva("\nEscolha uma opção para a Calculadora")
 			escreva("\n1-Soma")
@@ -71,3 +71,4 @@ programa
 		menu()
 	}
 }
+
