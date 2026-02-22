@@ -1,0 +1,15 @@
+print("=== SISTEMA DE IDENTIFICAÇÃO ===\n")
+codigo = int(input("Digite o código do funcionário: "))
+idade = int(input("Digite a idade do funcionário: "))
+tipo_sanguineo = input("Digite o tipo sanguíneo do funcionário: ")
+rg = input("Digite o RG do funcionário: ")
+print("\n==============================")
+print("CARTEIRA DE IDENTIFICAÇÃO")
+print("==============================")
+
+print(f"Código: {codigo}")
+print(f"Idade: {idade}")
+print(f"Tipo Sanguíneo: {tipo_sanguineo}")
+print(f"RG: {rg}")
+
+print("==============================")
